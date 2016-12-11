@@ -1,6 +1,3 @@
-/home/yangxb/std/ch6/test/CMakeFiles/hello.dir
-/home/yangxb/std/ch6/test/CMakeFiles/edit_cache.dir
-/home/yangxb/std/ch6/test/CMakeFiles/rebuild_cache.dir
 /home/yangxb/std/ch6/test/lib/CMakeFiles/edit_cache.dir
 /home/yangxb/std/ch6/test/lib/CMakeFiles/print.dir
 /home/yangxb/std/ch6/test/lib/CMakeFiles/rebuild_cache.dir

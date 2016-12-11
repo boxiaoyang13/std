@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
+/home/yangxb/std/ch6/test/lib/print.cpp
+print.h
 /home/yangxb/std/ch6/test/lib/print.h
-
-/home/yangxb/std/ch6/test/main.cpp
 iostream
 -
-lib/print.h
+
 /home/yangxb/std/ch6/test/lib/print.h
 

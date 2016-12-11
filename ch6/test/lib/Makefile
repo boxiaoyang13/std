@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yangxb/std/ch6/test/CMakeFiles /home/yangxb/std/ch6/test/CMakeFiles/progress.marks
-	$(MAKE) -f CMakeFiles/Makefile2 all
+	cd /home/yangxb/std/ch6/test && $(CMAKE_COMMAND) -E cmake_progress_start /home/yangxb/std/ch6/test/CMakeFiles /home/yangxb/std/ch6/test/lib/CMakeFiles/progress.marks
+	cd /home/yangxb/std/ch6/test && $(MAKE) -f CMakeFiles/Makefile2 lib/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yangxb/std/ch6/test/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) -f CMakeFiles/Makefile2 clean
+	cd /home/yangxb/std/ch6/test && $(MAKE) -f CMakeFiles/Makefile2 lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,71 +97,60 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /home/yangxb/std/ch6/test && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /home/yangxb/std/ch6/test && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/yangxb/std/ch6/test && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named hello
+# Convenience name for target.
+lib/CMakeFiles/print.dir/rule:
+	cd /home/yangxb/std/ch6/test && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/print.dir/rule
+.PHONY : lib/CMakeFiles/print.dir/rule
 
-# Build rule for target.
-hello: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 hello
-.PHONY : hello
+# Convenience name for target.
+print: lib/CMakeFiles/print.dir/rule
 
-# fast build rule for target.
-hello/fast:
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
-.PHONY : hello/fast
-
-#=============================================================================
-# Target rules for targets named print
-
-# Build rule for target.
-print: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 print
 .PHONY : print
 
 # fast build rule for target.
 print/fast:
-	$(MAKE) -f lib/CMakeFiles/print.dir/build.make lib/CMakeFiles/print.dir/build
+	cd /home/yangxb/std/ch6/test && $(MAKE) -f lib/CMakeFiles/print.dir/build.make lib/CMakeFiles/print.dir/build
 .PHONY : print/fast
 
-main.o: main.cpp.o
+print.o: print.cpp.o
 
-.PHONY : main.o
+.PHONY : print.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/main.cpp.o
-.PHONY : main.cpp.o
+print.cpp.o:
+	cd /home/yangxb/std/ch6/test && $(MAKE) -f lib/CMakeFiles/print.dir/build.make lib/CMakeFiles/print.dir/print.cpp.o
+.PHONY : print.cpp.o
 
-main.i: main.cpp.i
+print.i: print.cpp.i
 
-.PHONY : main.i
+.PHONY : print.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/main.cpp.i
-.PHONY : main.cpp.i
+print.cpp.i:
+	cd /home/yangxb/std/ch6/test && $(MAKE) -f lib/CMakeFiles/print.dir/build.make lib/CMakeFiles/print.dir/print.cpp.i
+.PHONY : print.cpp.i
 
-main.s: main.cpp.s
+print.s: print.cpp.s
 
-.PHONY : main.s
+.PHONY : print.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/main.cpp.s
-.PHONY : main.cpp.s
+print.cpp.s:
+	cd /home/yangxb/std/ch6/test && $(MAKE) -f lib/CMakeFiles/print.dir/build.make lib/CMakeFiles/print.dir/print.cpp.s
+.PHONY : print.cpp.s
 
 # Help Target
 help:
@@ -169,13 +158,12 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... hello"
 	@echo "... edit_cache"
-	@echo "... rebuild_cache"
 	@echo "... print"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... rebuild_cache"
+	@echo "... print.o"
+	@echo "... print.i"
+	@echo "... print.s"
 .PHONY : help
 
 
@@ -187,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/yangxb/std/ch6/test && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

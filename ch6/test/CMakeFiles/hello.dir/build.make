@@ -57,39 +57,40 @@ include CMakeFiles/hello.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/hello.dir/flags.make
 
-CMakeFiles/hello.dir/hello.cpp.o: CMakeFiles/hello.dir/flags.make
-CMakeFiles/hello.dir/hello.cpp.o: hello.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxb/std/ch6/test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hello.dir/hello.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hello.dir/hello.cpp.o -c /home/yangxb/std/ch6/test/hello.cpp
+CMakeFiles/hello.dir/main.cpp.o: CMakeFiles/hello.dir/flags.make
+CMakeFiles/hello.dir/main.cpp.o: main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yangxb/std/ch6/test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hello.dir/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hello.dir/main.cpp.o -c /home/yangxb/std/ch6/test/main.cpp
 
-CMakeFiles/hello.dir/hello.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hello.dir/hello.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxb/std/ch6/test/hello.cpp > CMakeFiles/hello.dir/hello.cpp.i
+CMakeFiles/hello.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hello.dir/main.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yangxb/std/ch6/test/main.cpp > CMakeFiles/hello.dir/main.cpp.i
 
-CMakeFiles/hello.dir/hello.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hello.dir/hello.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxb/std/ch6/test/hello.cpp -o CMakeFiles/hello.dir/hello.cpp.s
+CMakeFiles/hello.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hello.dir/main.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yangxb/std/ch6/test/main.cpp -o CMakeFiles/hello.dir/main.cpp.s
 
-CMakeFiles/hello.dir/hello.cpp.o.requires:
+CMakeFiles/hello.dir/main.cpp.o.requires:
 
-.PHONY : CMakeFiles/hello.dir/hello.cpp.o.requires
+.PHONY : CMakeFiles/hello.dir/main.cpp.o.requires
 
-CMakeFiles/hello.dir/hello.cpp.o.provides: CMakeFiles/hello.dir/hello.cpp.o.requires
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/hello.cpp.o.provides.build
-.PHONY : CMakeFiles/hello.dir/hello.cpp.o.provides
+CMakeFiles/hello.dir/main.cpp.o.provides: CMakeFiles/hello.dir/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/main.cpp.o.provides.build
+.PHONY : CMakeFiles/hello.dir/main.cpp.o.provides
 
-CMakeFiles/hello.dir/hello.cpp.o.provides.build: CMakeFiles/hello.dir/hello.cpp.o
+CMakeFiles/hello.dir/main.cpp.o.provides.build: CMakeFiles/hello.dir/main.cpp.o
 
 
 # Object files for target hello
 hello_OBJECTS = \
-"CMakeFiles/hello.dir/hello.cpp.o"
+"CMakeFiles/hello.dir/main.cpp.o"
 
 # External object files for target hello
 hello_EXTERNAL_OBJECTS =
 
-hello: CMakeFiles/hello.dir/hello.cpp.o
+hello: CMakeFiles/hello.dir/main.cpp.o
 hello: CMakeFiles/hello.dir/build.make
+hello: lib/libprint.a
 hello: CMakeFiles/hello.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yangxb/std/ch6/test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable hello"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hello.dir/link.txt --verbose=$(VERBOSE)
@@ -99,7 +100,7 @@ CMakeFiles/hello.dir/build: hello
 
 .PHONY : CMakeFiles/hello.dir/build
 
-CMakeFiles/hello.dir/requires: CMakeFiles/hello.dir/hello.cpp.o.requires
+CMakeFiles/hello.dir/requires: CMakeFiles/hello.dir/main.cpp.o.requires
 
 .PHONY : CMakeFiles/hello.dir/requires
 

@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/yangxb/std/ch6/test
 # Target rules for target CMakeFiles/hello.dir
 
 # All Build rule for target.
-CMakeFiles/hello.dir/all:
+CMakeFiles/hello.dir/all: lib/CMakeFiles/print.dir/all
 	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/depend
 	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yangxb/std/ch6/test/CMakeFiles --progress-num=1,2 "Built target hello"
@@ -76,7 +76,7 @@ all: CMakeFiles/hello.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hello.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yangxb/std/ch6/test/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yangxb/std/ch6/test/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hello.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yangxb/std/ch6/test/CMakeFiles 0
 .PHONY : CMakeFiles/hello.dir/rule
@@ -93,6 +93,61 @@ CMakeFiles/hello.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/hello.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory lib
+
+# Convenience name for "all" pass in the directory.
+lib/all: lib/CMakeFiles/print.dir/all
+
+.PHONY : lib/all
+
+# Convenience name for "clean" pass in the directory.
+lib/clean: lib/CMakeFiles/print.dir/clean
+
+.PHONY : lib/clean
+
+# Convenience name for "preinstall" pass in the directory.
+lib/preinstall:
+
+.PHONY : lib/preinstall
+
+#=============================================================================
+# Target rules for target lib/CMakeFiles/print.dir
+
+# All Build rule for target.
+lib/CMakeFiles/print.dir/all:
+	$(MAKE) -f lib/CMakeFiles/print.dir/build.make lib/CMakeFiles/print.dir/depend
+	$(MAKE) -f lib/CMakeFiles/print.dir/build.make lib/CMakeFiles/print.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yangxb/std/ch6/test/CMakeFiles --progress-num=3,4 "Built target print"
+.PHONY : lib/CMakeFiles/print.dir/all
+
+# Include target in all.
+all: lib/CMakeFiles/print.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+lib/CMakeFiles/print.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yangxb/std/ch6/test/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/print.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yangxb/std/ch6/test/CMakeFiles 0
+.PHONY : lib/CMakeFiles/print.dir/rule
+
+# Convenience name for target.
+print: lib/CMakeFiles/print.dir/rule
+
+.PHONY : print
+
+# clean rule for target.
+lib/CMakeFiles/print.dir/clean:
+	$(MAKE) -f lib/CMakeFiles/print.dir/build.make lib/CMakeFiles/print.dir/clean
+.PHONY : lib/CMakeFiles/print.dir/clean
+
+# clean rule for target.
+clean: lib/CMakeFiles/print.dir/clean
 
 .PHONY : clean
 

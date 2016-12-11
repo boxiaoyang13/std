@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/yangxb/std/ch6/test/CMakeFiles/3.6.1/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/yangxb/std/ch6/test/lib/CMakeFiles/3.6.1/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/yangxb/std/ch6/test/CMakeFiles/3.6.1/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/yangxb/std/ch6/test/lib/CMakeFiles/3.6.1/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/yangxb/std/ch6/test/CMakeFiles/CMakeTmp
+Change Dir: /home/yangxb/std/ch6/test/lib/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_f2449/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_f2449.dir/build.make CMakeFiles/cmTC_f2449.dir/build
-gmake[1]: Entering directory `/home/yangxb/std/ch6/test/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f2449.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_f2449.dir/testCCompiler.c.o   -c /home/yangxb/std/ch6/test/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_f2449
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2449.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_f2449.dir/testCCompiler.c.o  -o cmTC_f2449 -rdynamic 
-gmake[1]: Leaving directory `/home/yangxb/std/ch6/test/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_fca3f/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_fca3f.dir/build.make CMakeFiles/cmTC_fca3f.dir/build
+gmake[1]: Entering directory `/home/yangxb/std/ch6/test/lib/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fca3f.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_fca3f.dir/testCCompiler.c.o   -c /home/yangxb/std/ch6/test/lib/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_fca3f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fca3f.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_fca3f.dir/testCCompiler.c.o  -o cmTC_fca3f -rdynamic 
+gmake[1]: Leaving directory `/home/yangxb/std/ch6/test/lib/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/yangxb/std/ch6/test/CMakeFiles/CMakeTmp
+Change Dir: /home/yangxb/std/ch6/test/lib/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_c82a5/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_c82a5.dir/build.make CMakeFiles/cmTC_c82a5.dir/build
-gmake[1]: Entering directory `/home/yangxb/std/ch6/test/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c82a5.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_c82a5.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.6/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_c82a5
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c82a5.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTC_c82a5.dir/CMakeCCompilerABI.c.o  -o cmTC_c82a5 -rdynamic  
+Run Build Command:"/usr/bin/gmake" "cmTC_c8747/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_c8747.dir/build.make CMakeFiles/cmTC_c8747.dir/build
+gmake[1]: Entering directory `/home/yangxb/std/ch6/test/lib/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c8747.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_c8747.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.6/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_c8747
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8747.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_c8747.dir/CMakeCCompilerABI.c.o  -o cmTC_c8747 -rdynamic  
 使用内建 specs。
 目标：i686-redhat-linux
 配置为：../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c,c++,objc,obj-c++,java,fortran,ada --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --with-tune=generic --with-arch=i686 --build=i686-redhat-linux
@@ -57,23 +57,23 @@ Linking C executable cmTC_c82a5
 gcc 版本 4.4.7 20120313 (Red Hat 4.4.7-4) (GCC) 
 COMPILER_PATH=/usr/libexec/gcc/i686-redhat-linux/4.4.7/:/usr/libexec/gcc/i686-redhat-linux/4.4.7/:/usr/libexec/gcc/i686-redhat-linux/:/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/:/usr/libexec/gcc/i686-redhat-linux/4.4.7/:/usr/libexec/gcc/i686-redhat-linux/:/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/
 LIBRARY_PATH=/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/4.4.7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c82a5' '-rdynamic' '-mtune=generic' '-march=i686'
- /usr/libexec/gcc/i686-redhat-linux/4.4.7/collect2 --eh-frame-hdr --build-id -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTC_c82a5 /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crt1.o /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crti.o /usr/lib/gcc/i686-redhat-linux/4.4.7/crtbegin.o -L/usr/lib/gcc/i686-redhat-linux/4.4.7 -L/usr/lib/gcc/i686-redhat-linux/4.4.7 -L/usr/lib/gcc/i686-redhat-linux/4.4.7/../../.. CMakeFiles/cmTC_c82a5.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i686-redhat-linux/4.4.7/crtend.o /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crtn.o
-gmake[1]: Leaving directory `/home/yangxb/std/ch6/test/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c8747' '-rdynamic' '-mtune=generic' '-march=i686'
+ /usr/libexec/gcc/i686-redhat-linux/4.4.7/collect2 --eh-frame-hdr --build-id -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTC_c8747 /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crt1.o /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crti.o /usr/lib/gcc/i686-redhat-linux/4.4.7/crtbegin.o -L/usr/lib/gcc/i686-redhat-linux/4.4.7 -L/usr/lib/gcc/i686-redhat-linux/4.4.7 -L/usr/lib/gcc/i686-redhat-linux/4.4.7/../../.. CMakeFiles/cmTC_c8747.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i686-redhat-linux/4.4.7/crtend.o /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crtn.o
+gmake[1]: Leaving directory `/home/yangxb/std/ch6/test/lib/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/yangxb/std/ch6/test/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/yangxb/std/ch6/test/lib/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_c82a5/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_c82a5.dir/build.make CMakeFiles/cmTC_c82a5.dir/build]
-  ignore line: [gmake[1]: Entering directory `/home/yangxb/std/ch6/test/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_c82a5.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_c82a5.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.6/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_c82a5]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c82a5.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_c82a5.dir/CMakeCCompilerABI.c.o  -o cmTC_c82a5 -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_c8747/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_c8747.dir/build.make CMakeFiles/cmTC_c8747.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/yangxb/std/ch6/test/lib/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_c8747.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_c8747.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.6/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_c8747]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8747.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_c8747.dir/CMakeCCompilerABI.c.o  -o cmTC_c8747 -rdynamic  ]
   ignore line: [使用内建 specs。]
   ignore line: [目标：i686-redhat-linux]
   ignore line: [配置为：../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c,c++,objc,obj-c++,java,fortran,ada --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --with-tune=generic --with-arch=i686 --build=i686-redhat-linux]
@@ -81,8 +81,8 @@ Parsed C implicit link information from above output:
   ignore line: [gcc 版本 4.4.7 20120313 (Red Hat 4.4.7-4) (GCC) ]
   ignore line: [COMPILER_PATH=/usr/libexec/gcc/i686-redhat-linux/4.4.7/:/usr/libexec/gcc/i686-redhat-linux/4.4.7/:/usr/libexec/gcc/i686-redhat-linux/:/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/:/usr/libexec/gcc/i686-redhat-linux/4.4.7/:/usr/libexec/gcc/i686-redhat-linux/:/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/4.4.7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c82a5' '-rdynamic' '-mtune=generic' '-march=i686']
-  link line: [ /usr/libexec/gcc/i686-redhat-linux/4.4.7/collect2 --eh-frame-hdr --build-id -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTC_c82a5 /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crt1.o /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crti.o /usr/lib/gcc/i686-redhat-linux/4.4.7/crtbegin.o -L/usr/lib/gcc/i686-redhat-linux/4.4.7 -L/usr/lib/gcc/i686-redhat-linux/4.4.7 -L/usr/lib/gcc/i686-redhat-linux/4.4.7/../../.. CMakeFiles/cmTC_c82a5.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i686-redhat-linux/4.4.7/crtend.o /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c8747' '-rdynamic' '-mtune=generic' '-march=i686']
+  link line: [ /usr/libexec/gcc/i686-redhat-linux/4.4.7/collect2 --eh-frame-hdr --build-id -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTC_c8747 /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crt1.o /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crti.o /usr/lib/gcc/i686-redhat-linux/4.4.7/crtbegin.o -L/usr/lib/gcc/i686-redhat-linux/4.4.7 -L/usr/lib/gcc/i686-redhat-linux/4.4.7 -L/usr/lib/gcc/i686-redhat-linux/4.4.7/../../.. CMakeFiles/cmTC_c8747.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i686-redhat-linux/4.4.7/crtend.o /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crtn.o]
     arg [/usr/libexec/gcc/i686-redhat-linux/4.4.7/collect2] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
     arg [--build-id] ==> ignore
@@ -93,14 +93,14 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib/ld-linux.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_c82a5] ==> ignore
+    arg [cmTC_c8747] ==> ignore
     arg [/usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crt1.o] ==> ignore
     arg [/usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crti.o] ==> ignore
     arg [/usr/lib/gcc/i686-redhat-linux/4.4.7/crtbegin.o] ==> ignore
     arg [-L/usr/lib/gcc/i686-redhat-linux/4.4.7] ==> dir [/usr/lib/gcc/i686-redhat-linux/4.4.7]
     arg [-L/usr/lib/gcc/i686-redhat-linux/4.4.7] ==> dir [/usr/lib/gcc/i686-redhat-linux/4.4.7]
     arg [-L/usr/lib/gcc/i686-redhat-linux/4.4.7/../../..] ==> dir [/usr/lib/gcc/i686-redhat-linux/4.4.7/../../..]
-    arg [CMakeFiles/cmTC_c82a5.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_c8747.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -127,17 +127,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/yangxb/std/ch6/test/CMakeFiles/CMakeTmp
+Change Dir: /home/yangxb/std/ch6/test/lib/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_ed3bb/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_ed3bb.dir/build.make CMakeFiles/cmTC_ed3bb.dir/build
-gmake[1]: Entering directory `/home/yangxb/std/ch6/test/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ed3bb.dir/feature_tests.c.o
-/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_ed3bb.dir/feature_tests.c.o   -c /home/yangxb/std/ch6/test/CMakeFiles/feature_tests.c
-Linking C executable cmTC_ed3bb
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed3bb.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_ed3bb.dir/feature_tests.c.o  -o cmTC_ed3bb -rdynamic 
-gmake[1]: Leaving directory `/home/yangxb/std/ch6/test/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_b0325/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_b0325.dir/build.make CMakeFiles/cmTC_b0325.dir/build
+gmake[1]: Entering directory `/home/yangxb/std/ch6/test/lib/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b0325.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_b0325.dir/feature_tests.c.o   -c /home/yangxb/std/ch6/test/lib/CMakeFiles/feature_tests.c
+Linking C executable cmTC_b0325
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0325.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_b0325.dir/feature_tests.c.o  -o cmTC_b0325 -rdynamic 
+gmake[1]: Leaving directory `/home/yangxb/std/ch6/test/lib/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -147,17 +147,17 @@ gmake[1]: Leaving directory `/home/yangxb/std/ch6/test/CMakeFiles/CMakeTmp'
 
 
 Detecting C [-std=c89] compiler features compiled with the following output:
-Change Dir: /home/yangxb/std/ch6/test/CMakeFiles/CMakeTmp
+Change Dir: /home/yangxb/std/ch6/test/lib/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_8dc10/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_8dc10.dir/build.make CMakeFiles/cmTC_8dc10.dir/build
-gmake[1]: Entering directory `/home/yangxb/std/ch6/test/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8dc10.dir/feature_tests.c.o
-/usr/bin/cc    -std=c89 -o CMakeFiles/cmTC_8dc10.dir/feature_tests.c.o   -c /home/yangxb/std/ch6/test/CMakeFiles/feature_tests.c
-Linking C executable cmTC_8dc10
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8dc10.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_8dc10.dir/feature_tests.c.o  -o cmTC_8dc10 -rdynamic 
-gmake[1]: Leaving directory `/home/yangxb/std/ch6/test/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_22bb8/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_22bb8.dir/build.make CMakeFiles/cmTC_22bb8.dir/build
+gmake[1]: Entering directory `/home/yangxb/std/ch6/test/lib/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_22bb8.dir/feature_tests.c.o
+/usr/bin/cc    -std=c89 -o CMakeFiles/cmTC_22bb8.dir/feature_tests.c.o   -c /home/yangxb/std/ch6/test/lib/CMakeFiles/feature_tests.c
+Linking C executable cmTC_22bb8
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22bb8.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_22bb8.dir/feature_tests.c.o  -o cmTC_22bb8 -rdynamic 
+gmake[1]: Leaving directory `/home/yangxb/std/ch6/test/lib/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -165,30 +165,30 @@ gmake[1]: Leaving directory `/home/yangxb/std/ch6/test/CMakeFiles/CMakeTmp'
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/yangxb/std/ch6/test/CMakeFiles/CMakeTmp
+Change Dir: /home/yangxb/std/ch6/test/lib/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_b28d2/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_b28d2.dir/build.make CMakeFiles/cmTC_b28d2.dir/build
-gmake[1]: Entering directory `/home/yangxb/std/ch6/test/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b28d2.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_b28d2.dir/testCXXCompiler.cxx.o -c /home/yangxb/std/ch6/test/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_b28d2
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b28d2.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_b28d2.dir/testCXXCompiler.cxx.o  -o cmTC_b28d2 -rdynamic 
-gmake[1]: Leaving directory `/home/yangxb/std/ch6/test/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_f2aec/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f2aec.dir/build.make CMakeFiles/cmTC_f2aec.dir/build
+gmake[1]: Entering directory `/home/yangxb/std/ch6/test/lib/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f2aec.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_f2aec.dir/testCXXCompiler.cxx.o -c /home/yangxb/std/ch6/test/lib/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_f2aec
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2aec.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_f2aec.dir/testCXXCompiler.cxx.o  -o cmTC_f2aec -rdynamic 
+gmake[1]: Leaving directory `/home/yangxb/std/ch6/test/lib/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/yangxb/std/ch6/test/CMakeFiles/CMakeTmp
+Change Dir: /home/yangxb/std/ch6/test/lib/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_9dfcc/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_9dfcc.dir/build.make CMakeFiles/cmTC_9dfcc.dir/build
-gmake[1]: Entering directory `/home/yangxb/std/ch6/test/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_9dfcc.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_9dfcc.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_9dfcc
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9dfcc.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_9dfcc.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_9dfcc -rdynamic  
+Run Build Command:"/usr/bin/gmake" "cmTC_01b68/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_01b68.dir/build.make CMakeFiles/cmTC_01b68.dir/build
+gmake[1]: Entering directory `/home/yangxb/std/ch6/test/lib/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_01b68.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_01b68.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_01b68
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01b68.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_01b68.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_01b68 -rdynamic  
 使用内建 specs。
 目标：i686-redhat-linux
 配置为：../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c,c++,objc,obj-c++,java,fortran,ada --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --with-tune=generic --with-arch=i686 --build=i686-redhat-linux
@@ -196,23 +196,23 @@ Linking CXX executable cmTC_9dfcc
 gcc 版本 4.4.7 20120313 (Red Hat 4.4.7-4) (GCC) 
 COMPILER_PATH=/usr/libexec/gcc/i686-redhat-linux/4.4.7/:/usr/libexec/gcc/i686-redhat-linux/4.4.7/:/usr/libexec/gcc/i686-redhat-linux/:/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/:/usr/libexec/gcc/i686-redhat-linux/4.4.7/:/usr/libexec/gcc/i686-redhat-linux/:/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/
 LIBRARY_PATH=/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/4.4.7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9dfcc' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=i686'
- /usr/libexec/gcc/i686-redhat-linux/4.4.7/collect2 --eh-frame-hdr --build-id -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTC_9dfcc /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crt1.o /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crti.o /usr/lib/gcc/i686-redhat-linux/4.4.7/crtbegin.o -L/usr/lib/gcc/i686-redhat-linux/4.4.7 -L/usr/lib/gcc/i686-redhat-linux/4.4.7 -L/usr/lib/gcc/i686-redhat-linux/4.4.7/../../.. CMakeFiles/cmTC_9dfcc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i686-redhat-linux/4.4.7/crtend.o /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crtn.o
-gmake[1]: Leaving directory `/home/yangxb/std/ch6/test/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_01b68' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=i686'
+ /usr/libexec/gcc/i686-redhat-linux/4.4.7/collect2 --eh-frame-hdr --build-id -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTC_01b68 /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crt1.o /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crti.o /usr/lib/gcc/i686-redhat-linux/4.4.7/crtbegin.o -L/usr/lib/gcc/i686-redhat-linux/4.4.7 -L/usr/lib/gcc/i686-redhat-linux/4.4.7 -L/usr/lib/gcc/i686-redhat-linux/4.4.7/../../.. CMakeFiles/cmTC_01b68.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i686-redhat-linux/4.4.7/crtend.o /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crtn.o
+gmake[1]: Leaving directory `/home/yangxb/std/ch6/test/lib/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/yangxb/std/ch6/test/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/yangxb/std/ch6/test/lib/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_9dfcc/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_9dfcc.dir/build.make CMakeFiles/cmTC_9dfcc.dir/build]
-  ignore line: [gmake[1]: Entering directory `/home/yangxb/std/ch6/test/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_9dfcc.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_9dfcc.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_9dfcc]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9dfcc.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_9dfcc.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_9dfcc -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_01b68/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_01b68.dir/build.make CMakeFiles/cmTC_01b68.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/yangxb/std/ch6/test/lib/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_01b68.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_01b68.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_01b68]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01b68.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_01b68.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_01b68 -rdynamic  ]
   ignore line: [使用内建 specs。]
   ignore line: [目标：i686-redhat-linux]
   ignore line: [配置为：../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c,c++,objc,obj-c++,java,fortran,ada --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-ppl --with-cloog --with-tune=generic --with-arch=i686 --build=i686-redhat-linux]
@@ -220,8 +220,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc 版本 4.4.7 20120313 (Red Hat 4.4.7-4) (GCC) ]
   ignore line: [COMPILER_PATH=/usr/libexec/gcc/i686-redhat-linux/4.4.7/:/usr/libexec/gcc/i686-redhat-linux/4.4.7/:/usr/libexec/gcc/i686-redhat-linux/:/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/:/usr/libexec/gcc/i686-redhat-linux/4.4.7/:/usr/libexec/gcc/i686-redhat-linux/:/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/4.4.7/:/usr/lib/gcc/i686-redhat-linux/4.4.7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9dfcc' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=i686']
-  link line: [ /usr/libexec/gcc/i686-redhat-linux/4.4.7/collect2 --eh-frame-hdr --build-id -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTC_9dfcc /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crt1.o /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crti.o /usr/lib/gcc/i686-redhat-linux/4.4.7/crtbegin.o -L/usr/lib/gcc/i686-redhat-linux/4.4.7 -L/usr/lib/gcc/i686-redhat-linux/4.4.7 -L/usr/lib/gcc/i686-redhat-linux/4.4.7/../../.. CMakeFiles/cmTC_9dfcc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i686-redhat-linux/4.4.7/crtend.o /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_01b68' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=i686']
+  link line: [ /usr/libexec/gcc/i686-redhat-linux/4.4.7/collect2 --eh-frame-hdr --build-id -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTC_01b68 /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crt1.o /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crti.o /usr/lib/gcc/i686-redhat-linux/4.4.7/crtbegin.o -L/usr/lib/gcc/i686-redhat-linux/4.4.7 -L/usr/lib/gcc/i686-redhat-linux/4.4.7 -L/usr/lib/gcc/i686-redhat-linux/4.4.7/../../.. CMakeFiles/cmTC_01b68.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i686-redhat-linux/4.4.7/crtend.o /usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crtn.o]
     arg [/usr/libexec/gcc/i686-redhat-linux/4.4.7/collect2] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
     arg [--build-id] ==> ignore
@@ -232,14 +232,14 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib/ld-linux.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_9dfcc] ==> ignore
+    arg [cmTC_01b68] ==> ignore
     arg [/usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crt1.o] ==> ignore
     arg [/usr/lib/gcc/i686-redhat-linux/4.4.7/../../../crti.o] ==> ignore
     arg [/usr/lib/gcc/i686-redhat-linux/4.4.7/crtbegin.o] ==> ignore
     arg [-L/usr/lib/gcc/i686-redhat-linux/4.4.7] ==> dir [/usr/lib/gcc/i686-redhat-linux/4.4.7]
     arg [-L/usr/lib/gcc/i686-redhat-linux/4.4.7] ==> dir [/usr/lib/gcc/i686-redhat-linux/4.4.7]
     arg [-L/usr/lib/gcc/i686-redhat-linux/4.4.7/../../..] ==> dir [/usr/lib/gcc/i686-redhat-linux/4.4.7/../../..]
-    arg [CMakeFiles/cmTC_9dfcc.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_01b68.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -264,17 +264,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++0x] compiler features compiled with the following output:
-Change Dir: /home/yangxb/std/ch6/test/CMakeFiles/CMakeTmp
+Change Dir: /home/yangxb/std/ch6/test/lib/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_7c8af/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_7c8af.dir/build.make CMakeFiles/cmTC_7c8af.dir/build
-gmake[1]: Entering directory `/home/yangxb/std/ch6/test/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_7c8af.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++0x -o CMakeFiles/cmTC_7c8af.dir/feature_tests.cxx.o -c /home/yangxb/std/ch6/test/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_7c8af
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c8af.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_7c8af.dir/feature_tests.cxx.o  -o cmTC_7c8af -rdynamic 
-gmake[1]: Leaving directory `/home/yangxb/std/ch6/test/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_77d7d/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_77d7d.dir/build.make CMakeFiles/cmTC_77d7d.dir/build
+gmake[1]: Entering directory `/home/yangxb/std/ch6/test/lib/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_77d7d.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++0x -o CMakeFiles/cmTC_77d7d.dir/feature_tests.cxx.o -c /home/yangxb/std/ch6/test/lib/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_77d7d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77d7d.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_77d7d.dir/feature_tests.cxx.o  -o cmTC_77d7d -rdynamic 
+gmake[1]: Leaving directory `/home/yangxb/std/ch6/test/lib/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -337,17 +337,17 @@ gmake[1]: Leaving directory `/home/yangxb/std/ch6/test/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/yangxb/std/ch6/test/CMakeFiles/CMakeTmp
+Change Dir: /home/yangxb/std/ch6/test/lib/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_83813/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_83813.dir/build.make CMakeFiles/cmTC_83813.dir/build
-gmake[1]: Entering directory `/home/yangxb/std/ch6/test/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_83813.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_83813.dir/feature_tests.cxx.o -c /home/yangxb/std/ch6/test/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_83813
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83813.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_83813.dir/feature_tests.cxx.o  -o cmTC_83813 -rdynamic 
-gmake[1]: Leaving directory `/home/yangxb/std/ch6/test/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_21d52/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_21d52.dir/build.make CMakeFiles/cmTC_21d52.dir/build
+gmake[1]: Entering directory `/home/yangxb/std/ch6/test/lib/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_21d52.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_21d52.dir/feature_tests.cxx.o -c /home/yangxb/std/ch6/test/lib/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_21d52
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21d52.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_21d52.dir/feature_tests.cxx.o  -o cmTC_21d52 -rdynamic 
+gmake[1]: Leaving directory `/home/yangxb/std/ch6/test/lib/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
