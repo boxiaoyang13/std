@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/ostream.dir/ostream.cpp.o  -o ostream -rdynamic 
