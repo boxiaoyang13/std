@@ -11,4 +11,10 @@ iostream
 -
 iterator
 -
+vector
+-
+algorithm
+-
+string
+-
 
